@@ -1,0 +1,40 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+}
+
+/* hide sections until they are shown via the click events in javascript */
+#questions,
+#final,
+#highscores,
+#yesno {
+    display: none;  
+  }
+
+/* Remove bullet points from answers list */
+ul.nobullets {
+list-style-type: none;
+}
+
+/* Button styling | all buttons */
+.d-block,
+.d-inline-block,
+.ansBtn,
+.btn-success     {
+    box-shadow: 100px;
+    outline: white;
+    background-color: blue;
+    border-color: white;  
+}
+
+.ansBtn:hover,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus 
+ {
+    background-color: #6c757d;
+}
+
+.btn-success:hover {
+    background-color: #6c757d;
+}
